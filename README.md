@@ -19,3 +19,5 @@ introduced without disrupting existing objects.
 Created role-based security groups to support least privilege access
 and simplify user onboarding. Permissions are designed to be assigned
 to groups rather than individual users.
+
+![Security Groups by OU](OU-Security-Groups.png)
