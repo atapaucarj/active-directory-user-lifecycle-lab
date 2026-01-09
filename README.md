@@ -1,11 +1,17 @@
+# Active Directory User Lifecycle & File Access Lab
+
+Hands-on Active Directory lab focused on OU design, role-based access control,
+NTFS permissions, and Group Policy–driven drive mapping in a Windows domain environment.
+
 ## Environment
 - Windows Server 2019 (Domain Controller)
 - Windows 11 (Domain-joined client)
 - VirtualBox internal network
 
 ## Objective
-Design a realistic Active Directory OU structure to support
-user lifecycle management, access control, and Group Policy enforcement.
+Design and implement a realistic Active Directory environment to support
+user lifecycle management, role-based access control, and Group Policy enforcement.
+
 
 ### Phase 1 – OU Design
 Created a structured OU hierarchy to support role-based access,
@@ -41,5 +47,7 @@ Access was validated using role-based user accounts.
 
 ### Phase 4 – Drive Mapping via Group Policy
 Configured Group Policy Preferences to map departmental network drives at logon.
-The IT department share is automatically mapped for authorized users, providing
-a seamless and secure user experience via This PC.
+The IT department share is automatically mapped for authorized users and appears in This PC at sign-in.
+
+![Mapped IT Drive](IT-Drive-Mapped.png)
+
